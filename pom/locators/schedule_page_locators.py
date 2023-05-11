@@ -1,0 +1,17 @@
+class SchedulePageLocators:
+    SIGN_IN_BUTTON = 'Войти'
+    EMAIL = '//input[@type ="email"]'
+    PASSWORD = '//input[@type="password"]'
+
+    FILTER = '//div[@class="schedule-filters"]'
+    SELECT_CLASS = '//span[text()="7М1 класс"]'
+    CALENDAR = '//div[@class="calendar__trigger"]//*[local-name() = "svg"]'
+    YEAR = '//input[@id="rc_select_2"]/../..'
+    SELECT_YEAR = '2023'
+    MONTH = '//input[@id="rc_select_3"]/../..'
+    SELECT_MONTH = 'апр.'
+    SELECT_DAY = '04'
+    SELECT_CLASS_OPEN = 'div:nth-child(3) > .app-collapse-header > .app-collapse-expand-icon'
+    SHOW_RESULTS = 'Показать'
+    TIME_LESSON = '10:50 – 11:30'
+    INVALID_DATA = 'Неверный логин или пароль'
